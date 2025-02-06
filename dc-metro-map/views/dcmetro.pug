@@ -42,7 +42,6 @@ block content
         var map = L.mapbox.map('map')
             .setView([38.9, -77], 13)
             .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
-            
         var overlays = L.layerGroup().addTo(map);
         var layers;
         L.mapbox.featureLayer()
